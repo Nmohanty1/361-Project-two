@@ -8,5 +8,52 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 
 /* Begin site styles below */
 html {
-  font-size: 20em;
+  font-size: 1.25em;
+  font-family: :"Optima",sans-serif;
+  line-height: 1.277em;
+  padding: 0 1em;
+  padding-right: 1em;
+}
+
+@media screen and (min-width 850px){
+
+}
+
+@media screen and (min-width 1000px){
+
+}
+body {
+  backround: #141E30;
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: linear-gradient(-45deg,#35577D, #141E30);
+  margin: 0;
+  padding: 0;
+  color:#e3f2fd;
+}
+
+h4{
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: .6111111em;
+}
+
+p{
+  text-indent: 1.3em;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin: 1em;
+  padding-right:1em;
+}
+.Tasks{
+  list-style-type: decimal;
+  text-indent: 1.3em
+}
+.family{
+  align-items: center;
+}
+.address{
+  text-align: center;
 }
