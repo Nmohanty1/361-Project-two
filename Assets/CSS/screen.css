@@ -15,7 +15,7 @@ html {
   padding-right: 1em;
 }
 
-@media screen and (min-width 850px){
+@media screen and (max-width 500px){
 
 }
 
@@ -27,7 +27,7 @@ body {
   background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
   background: linear-gradient(-45deg,#35577D, #141E30);
   margin: 0;
-  padding: 0;
+  padding: 1em;
   color:#e3f2fd;
 }
 
@@ -56,4 +56,10 @@ ol {
 }
 .address{
   text-align: center;
+}
+#mainr{
+  padding: 1em;
+}
+.jobs{
+  padding: 2.5em;
 }
