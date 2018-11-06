@@ -5,7 +5,7 @@
 /* stylelint-disable*/
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 /* stylelint-enable */
-
+/*https://www.modularscale.com/?20&px&1.125 major second*/
 /* Begin site styles below */
 html {
   font-size: 1.25em;
@@ -14,13 +14,16 @@ html {
   padding: 0 1em;
   padding-right: 1em;
 }
+img{
+  display: block;
+  max-width: 100%;
+}
 
 @media screen and (max-width 500px){
 
 }
 
 @media screen and (min-width 1000px){
-
 }
 body {
   backround: #141E30;
@@ -29,6 +32,14 @@ body {
   margin: 0;
   padding: 1em;
   color:#e3f2fd;
+}
+
+h2{
+      font-size: 1.802em;/*36.041px / 20px */
+      font-weight: bold;
+      text-align: left;
+      padding-top: .6111111em;
+      padding-bottom: .6111111em;
 }
 
 h4{
@@ -55,10 +66,11 @@ ol {
   align-items: center;
 }
 .address{
-  text-align: center;
+  text-align: left;
 }
 #mainr{
   padding: 1em;
+  padding-top: 1em;
 }
 .jobs{
   padding: 2.5em;
