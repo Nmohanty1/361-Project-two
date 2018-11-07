@@ -20,9 +20,8 @@ img{
 }
 
 @media screen and (max-width 500px){
-#navigation li{
-  float: none;
-}
+display:flex;
+
 }
 
 @media screen and (min-width 1000px){
@@ -98,6 +97,8 @@ ul{
 }
 #nobullet{
   list-style-type: none;
+  font-weight: normal;
+  padding-bottom: .61em;
 }
 .skills{
   list-style-type: circle;
