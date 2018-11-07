@@ -20,7 +20,9 @@ img{
 }
 
 @media screen and (max-width 500px){
-
+#navigation li{
+  float: none;
+}
 }
 
 @media screen and (min-width 1000px){
@@ -63,7 +65,7 @@ ol {
   padding-right:1em;
 }
 ul{
-  list-style-type: none;
+  list-style-type:none;
   padding-bottom: .61em;
   padding-top: .61em;
 }
@@ -89,6 +91,17 @@ ul{
 #navigation li {
   float: left;
 }
+.Tasks li{
+  list-style-type: circle;
+
+}
+#nobullet{
+  list-style-type: none;
+}
+.skills{
+  list-style-type: circle;
+}
+
 
 #navigation a {
     display: block;
