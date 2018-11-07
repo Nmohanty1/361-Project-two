@@ -16,16 +16,19 @@ html {
 }
 img{
   display: block;
-  max-width: 100%;
+  max-width: 50%;
 }
-
+/*adjusting text and image sizes for different sizes*/
 @media screen and (max-width 500px){
-font-size:1.0em; /*17.778 / 20 */
+font-size:1.0em; /*17.778px / 20px */
 
 }
 
 @media screen and (min-width 1000px){
+
 }
+
+/*backround color with gradient webkit*/
 body {
   background: #141E30;
   background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
@@ -43,8 +46,10 @@ h2{
       font-size: 1.602; /*32.06 / 20 px  */
       font-weight: bold;
       text-align: left;
-      padding-top: 1.2em;
+      padding-top: .6111111em;
+      padding-bottom: .6111111em;
 }
+/*list items that are not bolded */
 .task{
   font-weight: normal;
 }
@@ -76,18 +81,7 @@ ul{
 .jobs{
   padding: 2em;
 }
-#navigation {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 1em;
-    overflow: hidden;
-    background-color: #888888;
-}
 
-#navigation li {
-  float: left;
-}
 .tasks li{
   list-style-type: circle;
 
@@ -102,6 +96,11 @@ ul{
 }
 
 
+#expierence{
+  text-align: center;
+  padding-bottom: 1em;
+}
+/*CSS sheets for navigation and how it will look on website */
 #navigation a {
     display: block;
     color: white;
@@ -109,9 +108,16 @@ ul{
     padding: 14px 16px;
     text-decoration: none;
 }
-#expierence{
-  text-align: center;
-  padding-bottom: 1em;
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    overflow: hidden;
+    background-color: #888888;
 }
 
+#navigation li {
+  float: left;
+}
 /* Change the link color to #111 (black) on hover */
