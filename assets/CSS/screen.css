@@ -28,7 +28,7 @@ img{
 @media screen and (min-width 1000px){
 }
 body {
-  backround: #141E30;
+  background: #141E30;
   background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
   background: linear-gradient(-45deg,#35577D, #141E30);
   margin: 0;
@@ -50,7 +50,7 @@ h2{
 
 h4{
   font-weight: bold;
-  text-align: center;
+  text-align: left;
   padding-bottom: .6111111em;
 }
 
@@ -85,7 +85,7 @@ ul{
     padding: 0;
     margin-bottom: 1em;
     overflow: hidden;
-    background-color: #333;
+    background-color: #888888;
 }
 
 #navigation li {
@@ -110,8 +110,8 @@ ul{
     padding: 14px 16px;
     text-decoration: none;
 }
+#expierence{
+  text-align: center;
+}
 
 /* Change the link color to #111 (black) on hover */
-#navigation:hover {
-    background-color: #111;
-}
