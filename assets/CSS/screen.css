@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 html {
   font-size: 1.25em;
-  font-family: :"Optima",sans-serif;
+  font-family: :"optima",sans-serif;
   line-height: 1.277em;
   padding: 0 1em;
   padding-right: 1em;
@@ -20,7 +20,7 @@ img{
 }
 
 @media screen and (max-width 500px){
-display:flex;
+font-size:1.0em; /*17.778 / 20 */
 
 }
 
@@ -44,18 +44,15 @@ h2{
       font-weight: bold;
       text-align: left;
       padding-top: .61em;
-      padding-bottom: .61em;
 }
-
+#task{
+  font-weight: normal;
+}
 
 h4{
   font-weight:normal;
   text-align: left;
   padding-bottom: .6111111em;
-}
-
-p{
-  text-indent: 1.3em;
 }
 
 ol {
@@ -77,7 +74,7 @@ ul{
   padding-top: 1em;
 }
 .jobs{
-  padding: 2.5em;
+  padding: 2em;
 }
 #navigation {
     list-style-type: none;
@@ -91,7 +88,7 @@ ul{
 #navigation li {
   float: left;
 }
-.Tasks li{
+.tasks li{
   list-style-type: circle;
 
 }
@@ -114,6 +111,7 @@ ul{
 }
 #expierence{
   text-align: center;
+  padding-bottom: 1em;
 }
 
 /* Change the link color to #111 (black) on hover */
