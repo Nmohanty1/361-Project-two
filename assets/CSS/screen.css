@@ -43,9 +43,9 @@ h2{
       font-size: 1.602; /*32.06 / 20 px  */
       font-weight: bold;
       text-align: left;
-      padding-top: .61em;
+      padding-top: 1.2em;
 }
-#task{
+.task{
   font-weight: normal;
 }
 
@@ -92,8 +92,8 @@ ul{
   list-style-type: circle;
 
 }
-#nobullet{
-  list-style-type: none;
+.nobullet{
+  list-style-type:none;
   font-weight: normal;
   padding-bottom: .61em;
 }
