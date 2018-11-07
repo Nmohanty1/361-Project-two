@@ -38,6 +38,7 @@ body {
 h1{
   font-size: 1.802em;/*36.041px / 20px */
   padding-bottom: .61em;
+  padding-top: .61em;
 }
 h2{
       font-size: 1.602; /*32.06 / 20 px  */
@@ -49,7 +50,7 @@ h2{
 
 
 h4{
-  font-weight: bold;
+  font-weight:normal;
   text-align: left;
   padding-bottom: .6111111em;
 }
