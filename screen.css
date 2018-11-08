@@ -1,0 +1,126 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* stylelint-disable*/
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
+/* stylelint-enable */
+/*https://www.modularscale.com/?20&px&1.125 major second*/
+/* Begin site styles below */
+html {
+  font-size: 1.25em;
+  font-family: :"optima",sans-serif;
+  line-height: 1.277em;
+  padding: 0 1em;
+  padding-right: 1em;
+}
+img{
+  display: block;
+  max-width: 50%;
+}
+/*adjusting text and image sizes for different sizes*/
+@media screen and (max-width 500px){
+font-size:1.0em; /*17.778px / 20px */
+
+}
+
+@media screen and (min-width 1000px){
+
+}
+
+/*backround color with gradient webkit*/
+body {
+  background: #141E30;
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  background: linear-gradient(-45deg,#35577D, #141E30);
+  margin: 0;
+  padding: 1em;
+  color:#e3f2fd;
+}
+h1{
+  font-size: 1.802em;/*36.041px / 20px */
+  padding-bottom: .61em;
+  padding-top: .61em;
+}
+h2{
+      font-size: 1.602; /*32.06 / 20 px  */
+      font-weight: bold;
+      text-align: left;
+      padding-top: .6111111em;
+      padding-bottom: .6111111em;
+}
+/*list items that are not bolded */
+.task{
+  font-weight: normal;
+}
+
+h4{
+  font-weight:normal;
+  text-align: left;
+  padding-bottom: .6111111em;
+}
+
+ol {
+  list-style-type: decimal;
+  list-style-position: inside;
+  margin: 1em;
+  padding-right:1em;
+}
+ul{
+  list-style-type:none;
+  padding-bottom: .61em;
+  padding-top: .61em;
+}
+.address{
+  text-align: left;
+}
+#mainr{
+  padding: 1em;
+  padding-top: 1em;
+}
+.jobs{
+  padding: 2em;
+}
+
+.tasks li{
+  list-style-type: circle;
+
+}
+.nobullet{
+  list-style-type:none;
+  font-weight: normal;
+  padding-bottom: .61em;
+}
+.skills{
+  list-style-type: circle;
+}
+
+
+#expierence{
+  text-align: center;
+  padding-bottom: 1em;
+}
+#family{
+  text-align: center;
+}
+/*CSS sheets for navigation and how it will look on website */
+#navigation a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 1em;
+    overflow: hidden;
+    background-color: #888888;
+}
+
+#navigation li {
+  float: left;
+}
+/* Change the link color to #111 (black) on hover */
