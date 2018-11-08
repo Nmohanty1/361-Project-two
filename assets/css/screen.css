@@ -9,7 +9,7 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Begin site styles below */
 html {
   font-size: 1.25em;
-  font-family: :"optima",sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   line-height: 1.277em;
   padding: 0 1em;
   padding-right: 1em;
@@ -47,7 +47,7 @@ h1{
   padding-top: .61em;
 }
 h2{
-      font-size: 1.602; /*32.06 / 20 px  */
+      font-size: 1.602em; /*32.06 / 20 px  */
       font-weight: bold;
       text-align: left;
       padding-top: .61em;
