@@ -150,8 +150,22 @@ ul{
 
 #family2 ,#family3, #family4{
   display: none;
+  align-items:flex-start;
 }
 #family1{
-  display: block;
+  display: flex;
+  align-items: flex-start;
 }
+#prev{
+  display: flex;
+  justify-content:flex-start;
+  align-items: flex-start;
+
+}
+#next{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+#
 /* Change the link color to #111 (black) on hover */
