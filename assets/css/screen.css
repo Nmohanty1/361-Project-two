@@ -127,14 +127,31 @@ ul{
 #navigation li {
   float: left;
 }
-#pointers i{
-  background-color: rgba(255, 255, 255, .25);
-	color: #1C1D21;
+/*#pointers i{
+  background-color: black;
+	color: white;
 	cursor: pointer;
 	height: 30px;
 	padding: 15px;
 }
-.hidden{
+#slider{
+  border:20px solid;
+  height: 300px;
+  overflow:hidden;
+  width:600px;
+}
+#arrows{
+  display: flex;
+  justify-content:space-between;
+  height:30px;
+  position: absolute;
+  width:600px;
+}*/
+
+#family2 ,#family3, #family4{
   display: none;
+}
+#family1{
+  display: block;
 }
 /* Change the link color to #111 (black) on hover */
