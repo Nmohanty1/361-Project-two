@@ -16,8 +16,8 @@ html {
 }
 img{
   display: block;
-  height: 70%;
-  width: 70%;
+  max-height: 70%;
+  max-width: 70%;
   height: auto;
 }
 /*adjusting text and image sizes for different sizes*/
