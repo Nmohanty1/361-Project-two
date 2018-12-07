@@ -159,14 +159,13 @@ ul{
 #prev{
   display: flex;
   justify-content:flex-start;
-  align-items: flex-start;
   color:silver;
-
+  align-items: center;
 }
 #next{
   display: flex;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: center;
 }
 input{
   color: silver;
