@@ -1,17 +1,17 @@
-document.addEventListener('DOMContentLoaded' , function() {
-  console.log("Bear Down");
-});
+if(document.querySelector('#slides')) {
 
-var buttonN =document.querySelector('#next');
-var buttonB =document.querySelector('#prev');
+
+// Slideshow
+var next =document.querySelector('#next');
+var prev =document.querySelector('#prev');
 
 var f1 = 1;
 
-buttonN.addEventListener('click', function(){
-  f1++;
-  if (f1 >= 5) {
-    f1 = 1;
-  };
+next.addEventListener('click', function(){
+    f1++;
+      if (f1 >= 5) {
+        f1 = 1;
+        };
   console.log(f1);
   if (f1 === 1){
     document.getElementById('family4').style.display = "none";
@@ -31,7 +31,7 @@ buttonN.addEventListener('click', function(){
   };
 });
 
-buttonB.addEventListener('click', function(){
+prev.addEventListener('click', function(){
 f1--;
 if (f1 <= 0) {
   f1 = 4;
@@ -53,4 +53,11 @@ if(f1===4){
   document.getElementById('family1').style.display = "none";
   document.getElementById('family4').style.display = "block";
 };
+});
+}
+//open link in new window Gorgon gorgoncity
+var gorgoncity = document.querySelector("#gorgoncity")
+
+gorgoncity.addEventListener('click',function(){
+window.open("http://edmchicago.com/2018/05/11/gorgon-city-kamille-ghosted-go-deep/", '_blank');
 });

@@ -160,6 +160,7 @@ ul{
   display: flex;
   justify-content:flex-start;
   align-items: flex-start;
+  color:silver;
 
 }
 #next{
@@ -167,5 +168,11 @@ ul{
   justify-content: flex-end;
   align-items: flex-start;
 }
-#
+input{
+  color: silver;
+}
+
+#images{
+  display: flex;
+}
 /* Change the link color to #111 (black) on hover */
